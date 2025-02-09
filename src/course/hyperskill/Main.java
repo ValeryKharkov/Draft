@@ -1,7 +1,9 @@
+package course.hyperskill;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Draft {
+public class Main {
 
     public static void fillArray() {
         int n = 10;
