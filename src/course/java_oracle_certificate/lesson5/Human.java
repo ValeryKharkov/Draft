@@ -3,7 +3,7 @@ package course.java_oracle_certificate.lesson5;
 public class Human {
     String name;
     Car.CarConstructor car;
-    BankAccount ba;
+    BankAccountConstructor ba;
 
     void showInfo(){
         System.out.println("name: " + name);
@@ -13,14 +13,15 @@ public class Human {
     }
 }
 
+class BankAccountConstructor{
+    int id;
+    double balance;
 
-class BankAccount{
-    BankAccount (int i, double bal) {
+    BankAccountConstructor (int i, double bal) {
         id = i;
         balance = bal;
     }
-    int id;
-    double balance;
+
 }
 
 class HumanTest {
@@ -28,7 +29,7 @@ class HumanTest {
         Human h = new Human();
         h.name = "Jack";
         h.car = new Car.CarConstructor("Blue", "V4");
-        h.ba = new BankAccount(1, 10.5);
+        h.ba = new BankAccountConstructor(1, 10.5);
 
         h.showInfo();
 
