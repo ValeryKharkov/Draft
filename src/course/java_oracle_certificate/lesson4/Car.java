@@ -5,7 +5,7 @@ public class Car {
     String engine = "V6";
 }
 
-class CarMain {
+class CarTest {
     public static void main(String[] args) {
         Car car1 = new Car();
         Car car2 = car1;
