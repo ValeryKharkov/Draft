@@ -4,9 +4,19 @@
 package course.java_oracle_certificate.lesson4;
 
 public class BankAccount {
-    int id = 100;;
-    String name = "Olga";
-    double balance = 17.9;
+    public int id;;
+    public String name;
+    public double balance;
+
+    public double upBankAccount(double value) {
+        balance += value;
+        return balance;
+    }
+
+    public double downBankAccount(double value) {
+        balance -= value;
+        return balance;
+    }
 
 }
 
