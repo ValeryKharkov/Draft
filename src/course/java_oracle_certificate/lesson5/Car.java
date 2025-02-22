@@ -4,6 +4,7 @@ public class Car {
     String color;
     String engine;
     int speed;
+    CarConstructor car;
 
     int doUpSpeed(int upSpeed) {
         speed += upSpeed;
@@ -19,6 +20,17 @@ public class Car {
        System.out.println("color:" + color);
        System.out.println("engine:" + engine);
        System.out.println("speed:" + speed);
+    }
+
+    static class CarConstructor {
+        String color;
+        String engine;
+
+        CarConstructor(String color, String engine){
+            this.color = color;
+            this.engine = engine;
+        }
+
     }
 }
 
