@@ -7,12 +7,12 @@ public class Employee {
     EmployeeConstructor salary;
     String department;
 
-    void upSalary2x (double salary) {
-        salary = salary * 2;
+    void upSalary2x () {
+        salary.salaryCon = salary.salaryCon * 2;
     }
 
     void showInfo(){
-        System.out.println(salary);
+        System.out.println(salary.salaryCon);
     }
 }
 
@@ -20,11 +20,11 @@ class EmployeeConstructor{
     int id;
     String surname;
     int age;
-    double salary;
+    double salaryCon;
     String department;
 
     EmployeeConstructor(double salary) {
-        this.salary = salary;
+        this.salaryCon = salary;
     }
 }
 
@@ -34,7 +34,7 @@ class EmployeeTest{
         Employee emp2 = new Employee();
 
         emp1.salary = new EmployeeConstructor(400);
-        emp1.upSalary2x(300.0);
+        emp1.upSalary2x();
 
         emp1.showInfo();
 
