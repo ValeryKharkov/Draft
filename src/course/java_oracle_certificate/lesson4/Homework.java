@@ -1,3 +1,4 @@
+/*
 package course.java_oracle_certificate.lesson4;
 
 public class Homework {
@@ -16,3 +17,4 @@ public class Homework {
     }
 }
 
+*/

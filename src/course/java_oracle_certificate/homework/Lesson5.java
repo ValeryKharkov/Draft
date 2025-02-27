@@ -1,10 +1,10 @@
-/*
-package course.java_oracle_certificate.lesson5;
+package course.java_oracle_certificate.homework;
 
 import course.java_oracle_certificate.lesson4.BankAccount;
 import course.java_oracle_certificate.lesson4.Student;
 
-public class Homework {
+public class Lesson5 {
+
     public static void main(String[] args) {
         BankAccount ba = new BankAccount();
 
@@ -21,6 +21,3 @@ public class Homework {
         System.out.println(averageGradeMath);
     }
 }
-
-
-*/

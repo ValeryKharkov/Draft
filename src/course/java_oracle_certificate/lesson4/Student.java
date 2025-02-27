@@ -1,16 +1,18 @@
 package course.java_oracle_certificate.lesson4;
 
 public class Student {
-    int id;
-    String name;
-    String surname;
-    int year;
+    public int id;
+    public String name = "Victor";
+    public String surname;
+    public int year;
 
     public double averageGradeMath(double a, double b, double c) {
         return (a + b + c) / 3;
     }
 
-    double averageGradeEcon;
+    public double averageGradeEcon(double a, double b, double c) {
+        return (a + b + c) / 3;
+    }
 
     double averageGradeLang;
 
