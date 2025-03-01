@@ -4,7 +4,7 @@
 package course.java_oracle_certificate.lesson4;
 
 public class BankAccount {
-    public int id;;
+    public int id;
     public String name;
     public double balance;
 
