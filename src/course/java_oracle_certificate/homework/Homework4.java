@@ -2,8 +2,7 @@ package course.java_oracle_certificate.homework;
 
 import course.java_oracle_certificate.lesson4.Student;
 
-
-class StudentTest {
+public class Homework4 {
     public static void main(String[] args) {
         Student student1 = new Student();
 
@@ -23,3 +22,4 @@ class StudentTest {
         System.out.println("averageGradeLang: " + student1.averageGradeLang(5, 5, 5));
     }
 }
+

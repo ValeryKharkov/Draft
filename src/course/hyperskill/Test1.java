@@ -3,7 +3,7 @@ package course.hyperskill;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class Test1 {
 
     public static void fillArray() {
         int n = 10;
