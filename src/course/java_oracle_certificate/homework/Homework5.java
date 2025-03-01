@@ -3,7 +3,7 @@ package course.java_oracle_certificate.homework;
 import course.java_oracle_certificate.lesson4.BankAccount;
 import course.java_oracle_certificate.lesson4.Student;
 
-public class Lesson5 {
+public class Homework5 {
 
     public static void main(String[] args) {
         BankAccount ba = new BankAccount();
