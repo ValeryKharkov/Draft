@@ -1,7 +1,7 @@
 package repository;
 
 /**
- * Интерфейс, где определяются методы, которые должны быть реализованы конкретным классом репозитория
+ * Интерфейс, в котором определены методы для реализации классом репозитория
  */
 public interface StudentRepository {
     public Student getStudentById(int id);

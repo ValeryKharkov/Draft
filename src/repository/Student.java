@@ -1,7 +1,7 @@
 package repository;
 
 /**
- * Класс сущности для этого проекта
+ * Класс сущности
  */
 public class Student {
     private int id;
